@@ -5,7 +5,7 @@ const studyResults = document.getElementById('study-results');
 const saveTopicBtn = document.getElementById('save-topic-btn');
 
 // --- Gemini API Integration ---
-const GEMINI_PROXY_URL = 'http://localhost:3001/api/gemini';
+const GEMINI_PROXY_URL = 'https://campusbuddyiem.web.app/api/gemini';
 
 async function fetchGeminiNotesAndVideos(topic) {
   // Improved prompt for better structure
