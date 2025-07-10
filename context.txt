@@ -1,0 +1,40 @@
+Project Title: Campus Buddy – Your AI Companion for Study & Support
+
+Overview:
+This is a student-focused website combining two major features:
+1. An AI-powered Study Assistant that helps students quickly understand topics and find curated YouTube playlists.
+2. An anonymous Mental Health Support Chatbot that offers emotional support, stress management tips, and positive affirmations.
+
+Target Users:
+- College students (especially in my community/college) who need quick revision help or emotional support before exams or during stress periods.
+
+Problem Solved:
+1. Students waste time before exams looking for quality study content online.
+2. Many students silently struggle with anxiety, stress, or academic burnout and hesitate to talk to someone.
+
+Main Features to Build:
+---
+1. 📘 **Study Zone**
+   - Input box to enter any academic topic.
+   - Use Gemini API to generate short, summarized notes.
+   - Gemini also gives top 2–3 YouTube video recommendations for that topic.
+   - Optionally allow users to save the topic in Firebase Firestore.
+   
+2. 💬 **Mental Health Zone**
+   - Anonymous chat interface (Gemini API backend) for students to talk about their mental state or stress.
+   - Gemini offers gentle responses, tips, and support.
+   - Option to show a daily positive quote or affirmation on page load.
+   - Optionally use local storage to track daily check-ins or mood.
+
+Google Technologies to Integrate:
+- Gemini API (for both study assistance and emotional support)
+- Firebase Firestore (to store saved study topics if needed)
+- Firebase Hosting (for deployment)
+- Optional: Firebase Auth (if you want login functionality)
+
+Design Preference:
+- Simple, clean, modern UI
+- Two main sections: “Study Zone” and “Mental Health Zone”
+- Responsive (usable on mobile and laptop)
+- Light colors, calming aesthetics, and minimal distractions
+

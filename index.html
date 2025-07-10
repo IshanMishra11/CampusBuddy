@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Buddy – Your AI Companion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Campus Buddy</div>
+    <ul class="nav-links">
+      <li><a href="#study-zone">Study Zone</a></li>
+      <li><a href="#mental-health-zone">Mental Health Zone</a></li>
+      <li><a href="#" id="about-link">About the Developer</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="study-zone" class="section">
+      <h2>📘 Study Zone</h2>
+      <form id="study-form">
+        <input type="text" id="topic-input" placeholder="Enter a topic (e.g., Quantum Physics)" required>
+        <button type="submit">Get AI Notes</button>
+      </form>
+      <div id="study-results" class="results">
+        <!-- AI notes and YouTube links will appear here -->
+      </div>
+      <button id="save-topic-btn" style="display:none;">Save Topic</button>
+      <!-- TODO: Integrate Firebase Firestore to save topics here -->
+    </section>
+    <section id="mental-health-zone" class="section">
+      <h2>💬 Mental Health Zone</h2>
+      <div id="affirmation" class="affirmation">
+        <!-- Daily positive quote will appear here -->
+      </div>
+      <div class="chat-container">
+        <div id="chat-messages" class="chat-messages">
+          <!-- Chat messages will appear here -->
+        </div>
+        <form id="chat-form">
+          <input type="text" id="chat-input" placeholder="How are you feeling today?" required autocomplete="off">
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <div id="about-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span class="close" id="close-modal">&times;</span>
+      <h3>About the Developer</h3>
+      <p>Ishan Mishra is an engineering student with an insatiable curiosity for technology. His journey into the world of coding began with a fascination for innovation and how things work. When he’s not coding, Ishan explores new places, captures moments in vlogs, and immerses himself in hip-hop music. He’s a storyteller and dreamer, eager to connect with others to create something extraordinary.</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> 
