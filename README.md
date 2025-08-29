@@ -105,7 +105,7 @@ node server.js
 ---
 
 ## 👨‍💻 About the Developer
-**Ishan Mishra** is an engineering student with an insatiable curiosity for technology. His journey into the world of coding began with a fascination for innovation and how things work. When he’s not coding, Ishan explores new places, captures moments in vlogs, and immerses himself in hip-hop music. He’s a storyteller and dreamer, eager to connect with others to create something extraordinary.
+**Ishan Mishra and Pragya Kumari Mishra** is an engineering student with an insatiable curiosity for technology. His journey into the world of coding began with a fascination for innovation and how things work. When they are  not coding, they explores new places, capture moments in vlogs, and immerse themselves in hip-hop music. they are a storyteller and dreamer, eager to connect with others to create something extraordinary.
 
 ---
 
@@ -122,4 +122,4 @@ Pull requests, issues, and suggestions are welcome!
 
 ---
 
-> Made with ❤️ by Ishan Mishra 
+> Made with ❤️ by Ishan and Pragya
